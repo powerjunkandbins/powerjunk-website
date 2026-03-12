@@ -1,0 +1,162 @@
+POWER JUNK - ESTRUTURA DE ARQUIVOS
+===================================
+
+powerjunk-site/ (4.4 MB, 42 arquivos)
+│
+├── 📄 DOCUMENTAÇÃO E AJUDA
+│   ├── START_HERE.txt ...................... Início rápido
+│   ├── README.md ........................... Documentação completa
+│   ├── DOWNLOAD_SUMMARY.txt ................ Resumo do download
+│   └── FILE_TREE.txt ....................... Este arquivo
+│
+├── 🌐 PÁGINAS HTML (7 páginas)
+│   ├── test.html ........................... Página de teste com links
+│   ├── index.html (152 KB) ................. 🏠 Página Inicial
+│   ├── junk-removal.html (152 KB) .......... 🗑️ Remoção de Lixo
+│   ├── bin-rentals.html (146 KB) ........... 📦 Aluguel de Caçambas
+│   ├── small-demolition.html (146 KB) ...... 🔨 Pequenas Demolições
+│   ├── about-us.html (143 KB) .............. ℹ️ Sobre Nós
+│   └── contact.html (141 KB) ............... 📞 Contato
+│
+├── 📦 BACKUPS
+│   ├── index.html.bak
+│   ├── junk-removal.html.bak
+│   ├── bin-rentals.html.bak
+│   ├── small-demolition.html.bak
+│   ├── about-us.html.bak
+│   └── contact.html.bak
+│
+├── 🛠️ SCRIPTS E FERRAMENTAS
+│   ├── download_assets.bat ................. Script batch para download
+│   ├── download_assets.py .................. Script Python para download
+│   └── fix_paths.sh ........................ Script de conversão (executado)
+│
+├── 📁 wp-content/
+│   │
+│   ├── 🎨 themes/astra/
+│   │   └── assets/
+│   │       ├── css/minified/
+│   │       │   ├── main.min.css (45 KB) ............... CSS principal do tema
+│   │       │   └── compatibility/
+│   │       │       └── contact-form-7-main.min.css .... CSS do Contact Form 7
+│   │       └── js/minified/
+│   │           └── frontend.min.js .................... JS do tema Astra
+│   │
+│   ├── 🔌 plugins/
+│   │   │
+│   │   ├── contact-form-7/
+│   │   │   └── includes/css/
+│   │   │       └── styles.css (3 KB) .................. CSS do formulário
+│   │   │
+│   │   ├── elementor/
+│   │   │   └── assets/
+│   │   │       ├── css/
+│   │   │       │   ├── frontend.min.css ............... CSS principal Elementor
+│   │   │       │   ├── widget-heading.min.css ......... CSS de títulos
+│   │   │       │   └── widget-image.min.css ........... CSS de imagens
+│   │   │       ├── js/
+│   │   │       │   └── frontend.min.js ................ JS principal Elementor
+│   │   │       └── lib/animations/styles/
+│   │   │
+│   │   └── essential-addons-for-elementor-lite/
+│   │       └── assets/front-end/
+│   │
+│   └── 📤 uploads/
+│       │
+│       ├── 2025/12/
+│       │   ├── 🖼️ cropped-logo_power_junk-32x32.png (3 KB) ... Favicon pequeno
+│       │   ├── 🖼️ cropped-logo_power_junk-192x192.png (52 KB) . Favicon grande
+│       │   ├── 🖼️ home_01.png (687 KB) ...................... Imagem serviço 1
+│       │   ├── 🖼️ home_03.png (806 KB) ...................... Imagem serviço 2
+│       │   └── 🖼️ home_04.png (575 KB) ...................... Imagem serviço 3
+│       │
+│       ├── 2026/01/
+│       │   └── 📷 google-reviews-feed-example.jpg ........... Reviews Google
+│       │
+│       ├── astra-addon/
+│       │   └── astra-addon-69807d9ff37d85-42126342.css ..... CSS customizado
+│       │
+│       └── elementor/
+│           ├── css/
+│           │   ├── post-11.css ............................. CSS página home
+│           │   ├── post-31.css ............................. CSS página header
+│           │   └── post-172.css ........................... CSS página footer
+│           │
+│           └── thumbs/
+│               ├── 🎨 logo_power_junk.png (59 KB) .......... Logo principal
+│               ├── 🚚 box-truck.png ........................ Ícone caminhão
+│               ├── 🍁 canada.png ........................... Ícone Canadá
+│               ├── 🛡️ shield.png ........................... Ícone escudo
+│               └── 💬 chat.png ............................. Ícone chat
+│
+└── 📁 wp-includes/
+    └── js/jquery/
+        └── jquery.min.js ................................... jQuery library
+
+════════════════════════════════════════════════════════════════════════════
+
+ESTATÍSTICAS:
+═════════════
+
+📊 Total de arquivos: 42
+📦 Tamanho total: 4.4 MB
+📄 Páginas HTML: 7 (6 principais + 1 teste)
+🎨 Arquivos CSS: 9
+⚙️ Arquivos JavaScript: 3
+🖼️ Imagens PNG: 10
+📷 Imagens JPG: 1
+💾 Backups: 6
+
+RECURSOS PRINCIPAIS:
+═══════════════════
+
+✅ Tema Astra completo
+✅ Elementor page builder
+✅ jQuery library
+✅ Todas as imagens dos serviços
+✅ Logo e favicon
+✅ Ícones dos recursos
+✅ CSS customizado
+
+PASTAS VAZIAS (criadas para estrutura):
+═══════════════════════════════════════
+
+📁 css/ ......... (para CSS adicional futuro)
+📁 js/ .......... (para JS adicional futuro)
+📁 images/ ...... (para imagens adicionais futuras)
+
+════════════════════════════════════════════════════════════════════════════
+
+NAVEGAÇÃO:
+══════════
+
+Todas as páginas estão interligadas através do menu de navegação.
+Os caminhos foram convertidos de absolutos para relativos.
+
+EXEMPLO DE LINKS:
+- Home: index.html
+- Junk Removal: junk-removal.html
+- Bin Rentals: bin-rentals.html
+- Small Demolition: small-demolition.html
+- About Us: about-us.html
+- Contact: contact.html
+
+════════════════════════════════════════════════════════════════════════════
+
+COMO VISUALIZAR:
+════════════════
+
+1. MÉTODO SIMPLES:
+   Duplo-clique em test.html ou index.html
+
+2. MÉTODO RECOMENDADO:
+   python -m http.server 8000
+   Acesse: http://localhost:8000
+
+════════════════════════════════════════════════════════════════════════════
+
+STATUS: ✅ COMPLETO E PRONTO PARA USO
+Data: 2026-02-13
+Site original: https://powerjunk.ca/
+
+════════════════════════════════════════════════════════════════════════════

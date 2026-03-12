@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Block backup and dev files
+Disallow: /test.html
+Disallow: /upload-truck-image.html
+Disallow: /index_simple_backup.html
+Disallow: /index_old_elementor_backup.html
+Disallow: /junk-removal-OLD-wordpress.html
+Disallow: /junk-removal-OLD-v1.html
+Disallow: /junk-removal-BACKUP-v1.html
+
+Sitemap: https://powerjunk.ca/sitemap.xml

@@ -1,0 +1,120 @@
+╔══════════════════════════════════════════════════════════════════════════╗
+║                    POWER JUNK - SITE ESTÁTICO                            ║
+║                        COMEÇAR AQUI                                      ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+🎯 INÍCIO RÁPIDO (3 OPÇÕES):
+════════════════════════════════════════════════════════════════════════════
+
+OPÇÃO 1 - MAIS RÁPIDA (Abrir no navegador):
+--------------------------------------------
+1. Duplo-clique em: test.html
+   OU
+2. Duplo-clique em: index.html
+
+   → O site abrirá no seu navegador padrão
+
+
+OPÇÃO 2 - RECOMENDADA (Servidor Local com Python):
+---------------------------------------------------
+1. Abra o Prompt de Comando (CMD) ou PowerShell
+2. Navegue até esta pasta:
+   cd "C:\Users\Acer\Desktop\Power Junk & Bins CO. LTD\claude\powerjunk-site"
+3. Execute:
+   python -m http.server 8000
+4. Abra seu navegador e acesse:
+   http://localhost:8000
+
+
+OPÇÃO 3 - ALTERNATIVA (Servidor Local com Node.js):
+----------------------------------------------------
+1. Abra o terminal nesta pasta
+2. Execute:
+   npx http-server -p 8000
+3. Acesse: http://localhost:8000
+
+
+════════════════════════════════════════════════════════════════════════════
+
+📄 ARQUIVOS IMPORTANTES:
+════════════════════════════════════════════════════════════════════════════
+
+📗 README.md               → Documentação completa
+📊 DOWNLOAD_SUMMARY.txt    → Resumo detalhado do download
+🧪 test.html               → Página de teste com todos os links
+🏠 index.html              → Página inicial do site
+
+
+════════════════════════════════════════════════════════════════════════════
+
+🔗 PÁGINAS DISPONÍVEIS:
+════════════════════════════════════════════════════════════════════════════
+
+✅ index.html              - Página Inicial
+✅ junk-removal.html       - Remoção de Lixo
+✅ bin-rentals.html        - Aluguel de Caçambas
+✅ small-demolition.html   - Pequenas Demolições
+✅ about-us.html           - Sobre Nós
+✅ contact.html            - Contato
+
+
+════════════════════════════════════════════════════════════════════════════
+
+✅ O QUE ESTÁ FUNCIONANDO:
+════════════════════════════════════════════════════════════════════════════
+
+✓ Todas as 6 páginas HTML
+✓ Design e layout completo
+✓ Navegação entre páginas
+✓ Logo e imagens principais
+✓ Ícones e favicons
+✓ CSS do tema Astra
+✓ CSS do Elementor
+✓ JavaScript básico
+
+
+════════════════════════════════════════════════════════════════════════════
+
+⚠️ LIMITAÇÕES:
+════════════════════════════════════════════════════════════════════════════
+
+✗ Formulários de contato (requer backend WordPress)
+✗ Widget do WhatsApp (requer internet)
+✗ Google Fonts (requer internet para fontes)
+✗ Alguns recursos avançados do WordPress
+
+
+════════════════════════════════════════════════════════════════════════════
+
+📊 ESTATÍSTICAS:
+════════════════════════════════════════════════════════════════════════════
+
+Total de arquivos: 30+
+Tamanho total: 4.3 MB
+Páginas HTML: 6
+Recursos CSS: 9
+Recursos JS: 3
+Imagens: 10
+
+
+════════════════════════════════════════════════════════════════════════════
+
+❓ PRECISA DE AJUDA?
+════════════════════════════════════════════════════════════════════════════
+
+1. Leia o README.md para documentação completa
+2. Abra test.html para testar todas as páginas
+3. Verifique DOWNLOAD_SUMMARY.txt para detalhes técnicos
+
+
+════════════════════════════════════════════════════════════════════════════
+
+🎉 PRONTO PARA USAR!
+════════════════════════════════════════════════════════════════════════════
+
+Site: https://powerjunk.ca/ (original)
+Baixado em: 2026-02-13
+Versão: Estática (SEM WordPress)
+Status: ✅ COMPLETO E FUNCIONAL
+
+════════════════════════════════════════════════════════════════════════════

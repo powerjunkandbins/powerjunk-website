@@ -1,0 +1,154 @@
+================================================================================
+POWER JUNK WEBSITE - DOWNLOAD COMPLETO
+Data: 2026-02-13
+Site Original: https://powerjunk.ca/
+================================================================================
+
+RESUMO:
+--------
+✅ Site estático baixado com sucesso (SEM WordPress)
+✅ Todos os caminhos convertidos de absolutos para relativos
+✅ Pronto para rodar localmente
+✅ Tamanho total: 4.3 MB
+
+PÁGINAS HTML BAIXADAS (6):
+----------------------------
+1. index.html                  (152 KB) - Página inicial
+2. junk-removal.html          (152 KB) - Remoção de lixo
+3. bin-rentals.html           (146 KB) - Aluguel de caçambas
+4. small-demolition.html      (146 KB) - Pequenas demolições
+5. about-us.html              (143 KB) - Sobre nós
+6. contact.html               (141 KB) - Contato
+
+RECURSOS BAIXADOS (30 arquivos):
+---------------------------------
+
+CSS (8 arquivos):
+  - wp-content/themes/astra/assets/css/minified/main.min.css
+  - wp-content/plugins/contact-form-7/includes/css/styles.css
+  - wp-content/plugins/elementor/assets/css/frontend.min.css
+  - wp-content/plugins/elementor/assets/css/widget-heading.min.css
+  - wp-content/plugins/elementor/assets/css/widget-image.min.css
+  - wp-content/uploads/astra-addon/astra-addon-69807d9ff37d85-42126342.css
+  - wp-content/uploads/elementor/css/post-11.css
+  - wp-content/uploads/elementor/css/post-31.css
+  - wp-content/uploads/elementor/css/post-172.css
+
+JavaScript (3 arquivos):
+  - wp-includes/js/jquery/jquery.min.js
+  - wp-content/themes/astra/assets/js/minified/frontend.min.js
+  - wp-content/plugins/elementor/assets/js/frontend.min.js
+
+Imagens PNG (8 arquivos):
+  - wp-content/uploads/2025/12/cropped-logo_power_junk-32x32.png (favicon)
+  - wp-content/uploads/2025/12/cropped-logo_power_junk-192x192.png (favicon)
+  - wp-content/uploads/2025/12/home_01.png (687 KB)
+  - wp-content/uploads/2025/12/home_03.png (806 KB)
+  - wp-content/uploads/2025/12/home_04.png (575 KB)
+  - wp-content/uploads/elementor/thumbs/logo_power_junk.png (59 KB)
+  - wp-content/uploads/elementor/thumbs/box-truck.png
+  - wp-content/uploads/elementor/thumbs/canada.png
+  - wp-content/uploads/elementor/thumbs/shield.png
+  - wp-content/uploads/elementor/thumbs/chat.png
+
+Imagens JPG (1 arquivo):
+  - wp-content/uploads/2026/01/google-reviews-feed-example.jpg
+
+ARQUIVOS AUXILIARES:
+--------------------
+- README.md                    - Instruções detalhadas
+- test.html                    - Página de teste com links para todas as páginas
+- download_assets.bat          - Script batch para baixar recursos adicionais
+- fix_paths.sh                 - Script que converteu os caminhos (já executado)
+- download_assets.py           - Script Python para download (requer Python)
+- *.html.bak                   - Backups dos arquivos HTML originais
+
+COMO USAR:
+----------
+1. OPÇÃO RÁPIDA:
+   - Navegue até a pasta
+   - Duplo-clique em "test.html" ou "index.html"
+   - O site abrirá no seu navegador
+
+2. OPÇÃO RECOMENDADA (Servidor Local):
+   - Instale Python 3
+   - Abra terminal na pasta
+   - Execute: python -m http.server 8000
+   - Acesse: http://localhost:8000
+
+NAVEGAÇÃO:
+----------
+A navegação entre as páginas funciona através dos links internos:
+- Todas as referências a "powerjunk.ca" foram convertidas para caminhos locais
+- Links do menu navegam entre as páginas HTML
+
+LIMITAÇÕES:
+-----------
+⚠️ Recursos que ainda podem requerer internet:
+  - Google Fonts (fontes externas)
+  - Alguns scripts do WordPress
+  - Widget do WhatsApp
+  - Contact Form 7 (formulários não funcionarão sem backend)
+  - Alguns recursos CSS/JS não essenciais que não foram baixados
+
+✅ Funcionando Offline:
+  - Todas as páginas HTML
+  - Layout e design principal
+  - Navegação entre páginas
+  - Imagens principais
+  - Logo e ícones
+  - CSS principal (Astra + Elementor)
+  - JavaScript básico
+
+ESTRUTURA DE DIRETÓRIOS:
+------------------------
+powerjunk-site/
+├── index.html
+├── junk-removal.html
+├── bin-rentals.html
+├── small-demolition.html
+├── about-us.html
+├── contact.html
+├── test.html
+├── README.md
+├── DOWNLOAD_SUMMARY.txt (este arquivo)
+├── wp-content/
+│   ├── plugins/
+│   │   ├── contact-form-7/
+│   │   ├── elementor/
+│   │   └── essential-addons-for-elementor-lite/
+│   ├── themes/
+│   │   └── astra/
+│   └── uploads/
+│       ├── 2025/12/
+│       ├── 2026/01/
+│       ├── astra-addon/
+│       └── elementor/
+└── wp-includes/
+    └── js/jquery/
+
+PRÓXIMOS PASSOS (OPCIONAL):
+---------------------------
+Se quiser um site 100% offline com TODOS os recursos:
+
+1. Instalar ferramenta HTTrack:
+   - Windows: Baixe WinHTTrack
+   - Execute: httrack https://powerjunk.ca/ -O "./powerjunk-complete"
+
+2. Ou usar wget (Linux/Mac/WSL):
+   wget --mirror --convert-links --adjust-extension --page-requisites \
+        --no-parent https://powerjunk.ca/
+
+NOTAS TÉCNICAS:
+---------------
+- Tema WordPress: Astra 4.11.18
+- Page Builder: Elementor 3.35.0
+- Total de arquivos baixados: 30+
+- Conversão de caminhos: Completa
+- Backup dos originais: Sim (arquivos .bak)
+- Data do download: 2026-02-13
+- Navegador testado: Compatível com todos os navegadores modernos
+
+================================================================================
+FIM DO RESUMO
+================================================================================

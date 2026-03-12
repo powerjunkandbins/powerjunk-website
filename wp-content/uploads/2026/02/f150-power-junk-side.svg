@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <!-- F-150 Pickup Truck Silhouette -->
+  <defs>
+    <linearGradient id="truckGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d2d2d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Truck Body -->
+  <g>
+    <!-- Bed -->
+    <rect x="420" y="180" width="280" height="120" fill="url(#truckGrad)" rx="5"/>
+    <rect x="420" y="180" width="280" height="15" fill="#D32F2F"/>
+
+    <!-- Cab -->
+    <rect x="240" y="160" width="200" height="140" fill="url(#truckGrad)" rx="8"/>
+
+    <!-- Windshield -->
+    <path d="M 260 160 L 280 180 L 380 180 L 400 160 Z" fill="#4a90e2" opacity="0.6"/>
+
+    <!-- Side Window -->
+    <rect x="350" y="190" width="70" height="60" fill="#4a90e2" opacity="0.6" rx="3"/>
+
+    <!-- Hood -->
+    <path d="M 140 200 L 240 180 L 240 300 L 140 300 Z" fill="url(#truckGrad)"/>
+
+    <!-- Front Bumper -->
+    <rect x="100" y="280" width="50" height="25" fill="#2d2d2d" rx="3"/>
+
+    <!-- Grill -->
+    <rect x="145" y="250" width="15" height="40" fill="#666"/>
+    <line x1="150" y1="255" x2="150" y2="285" stroke="#999" stroke-width="2"/>
+    <line x1="153" y1="255" x2="153" y2="285" stroke="#999" stroke-width="2"/>
+    <line x1="156" y1="255" x2="156" y2="285" stroke="#999" stroke-width="2"/>
+
+    <!-- Headlights -->
+    <ellipse cx="130" cy="260" rx="12" ry="15" fill="#fff9e6"/>
+    <ellipse cx="130" cy="285" rx="10" y="12" fill="#ffcc00"/>
+
+    <!-- Wheels -->
+    <!-- Front Wheel -->
+    <circle cx="200" cy="305" r="35" fill="#1a1a1a"/>
+    <circle cx="200" cy="305" r="25" fill="#2d2d2d"/>
+    <circle cx="200" cy="305" r="12" fill="#4a4a4a"/>
+    <circle cx="200" cy="305" r="8" fill="#666"/>
+
+    <!-- Rear Wheel -->
+    <circle cx="550" cy="305" r="35" fill="#1a1a1a"/>
+    <circle cx="550" cy="305" r="25" fill="#2d2d2d"/>
+    <circle cx="550" cy="305" r="12" fill="#4a4a4a"/>
+    <circle cx="550" cy="305" r="8" fill="#666"/>
+
+    <!-- Side Mirror -->
+    <rect x="235" y="200" width="15" height="8" fill="#2d2d2d" rx="2"/>
+
+    <!-- Door Handle -->
+    <rect x="320" y="240" width="25" height="5" fill="#1a1a1a" rx="2"/>
+
+    <!-- Power Junk Logo Area -->
+    <rect x="450" y="210" width="220" height="60" fill="#D32F2F" rx="5"/>
+    <text x="560" y="235" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#F9A825" text-anchor="middle">POWER</text>
+    <text x="560" y="260" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#fff" text-anchor="middle">JUNK</text>
+  </g>
+</svg>

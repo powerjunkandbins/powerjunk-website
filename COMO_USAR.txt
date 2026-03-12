@@ -1,0 +1,199 @@
+==========================================================
+    COMO USAR O SITE POWER JUNK LOCALMENTE
+==========================================================
+
+📍 LOCALIZAÇÃO DO SITE:
+C:\Users\Acer\Desktop\Power Junk & Bins CO. LTD\claude\powerjunk-site\
+
+==========================================================
+🚀 COMO ABRIR O SITE (3 FORMAS)
+==========================================================
+
+FORMA 1 - Mais Rápida (RECOMENDADA):
+------------------------------------
+1. Abra o Windows Explorer
+2. Navegue até: C:\Users\Acer\Desktop\Power Junk & Bins CO. LTD\claude\powerjunk-site\
+3. Duplo-clique em "index.html"
+4. O site abre automaticamente no seu navegador padrão
+
+FORMA 2 - Via URL do Chrome:
+-----------------------------
+1. Abra o Google Chrome
+2. Na barra de endereços, cole:
+   file:///C:/Users/Acer/Desktop/Power%20Junk%20&%20Bins%20CO.%20LTD/claude/powerjunk-site/index.html
+3. Pressione Enter
+
+FORMA 3 - Arrastar e Soltar:
+-----------------------------
+1. Abra o Google Chrome
+2. Abra o Windows Explorer
+3. Arraste o arquivo "index.html" para dentro do Chrome
+
+==========================================================
+📄 TODAS AS PÁGINAS DISPONÍVEIS
+==========================================================
+
+✅ index.html - Página Inicial (Home)
+✅ junk-removal.html - Serviço de Remoção de Lixo
+✅ bin-rentals.html - Aluguel de Caçambas
+✅ small-demolition.html - Pequenas Demolições
+✅ about-us.html - Sobre Nós
+✅ contact.html - Contato
+
+==========================================================
+🧭 COMO NAVEGAR NO SITE
+==========================================================
+
+O site funciona EXATAMENTE como um site normal:
+
+1. Clique nos links do menu superior:
+   - Home
+   - Junk Removal
+   - Bin Rentals
+   - Small Demolition
+   - About Us
+   - Contact
+
+2. Todos os links funcionam e levam para as outras páginas
+
+3. Para voltar, use o botão "voltar" do navegador ou clique em "Home"
+
+==========================================================
+✅ O QUE ESTÁ FUNCIONANDO
+==========================================================
+
+✓ Todas as 6 páginas HTML
+✓ Design completo (cores, layout)
+✓ Logo da empresa
+✓ Todas as imagens
+✓ Navegação entre páginas
+✓ Layout responsivo (funciona em mobile/tablet/desktop)
+✓ Ícones e elementos visuais
+✓ Estilos CSS completos
+
+==========================================================
+⚠️ O QUE NÃO FUNCIONA (Normal para site estático)
+==========================================================
+
+✗ Formulários de contato (não enviam emails)
+✗ Botão de WhatsApp (pode não funcionar offline)
+✗ Recursos que dependem de servidor/banco de dados
+
+Isso é NORMAL porque você tem uma versão estática (HTML puro)
+sem backend/servidor.
+
+==========================================================
+📝 COMO EDITAR O SITE
+==========================================================
+
+Para fazer modificações no site, você pode:
+
+OPÇÃO 1 - Editar Texto/Conteúdo:
+---------------------------------
+1. Clique com botão direito em qualquer arquivo .html
+2. Abra com: Notepad++ ou Visual Studio Code
+3. Procure o texto que quer mudar
+4. Modifique e salve
+5. Atualize a página no navegador (F5)
+
+OPÇÃO 2 - Editar Imagens:
+--------------------------
+1. Vá para a pasta: wp-content/uploads/
+2. Substitua as imagens mantendo o mesmo nome
+3. Atualize a página no navegador (F5)
+
+OPÇÃO 3 - Editar Estilos (Cores, Fontes):
+------------------------------------------
+1. Vá para a pasta: wp-content/themes/astra/
+2. Edite os arquivos .css
+3. Atualize a página no navegador (F5)
+
+==========================================================
+💡 DICAS IMPORTANTES
+==========================================================
+
+1. NÃO PRECISA de servidor/internet para funcionar
+2. NÃO PRECISA de WordPress instalado
+3. NÃO PRECISA de banco de dados
+4. Funciona 100% OFFLINE
+5. Você pode copiar a pasta inteira para um pendrive
+6. Funciona em qualquer computador Windows/Mac/Linux
+
+==========================================================
+🔄 COMO ATUALIZAR O SITE ONLINE
+==========================================================
+
+Quando terminar as modificações e quiser publicar:
+
+1. Escolha um serviço de hosting (Hostinger, GoDaddy, etc)
+2. Faça upload de TODA a pasta "powerjunk-site"
+3. Configure o domínio para apontar para index.html
+4. Pronto! Site online!
+
+OU use serviços gratuitos como:
+- GitHub Pages
+- Netlify
+- Vercel
+- Cloudflare Pages
+
+==========================================================
+📞 TESTANDO AGORA
+==========================================================
+
+Para testar se está tudo OK:
+
+1. Abra o index.html
+2. Verifique se o logo aparece
+3. Clique em "Junk Removal" no menu
+4. Clique em "Bin Rentals" no menu
+5. Clique em "About Us" no menu
+6. Clique em "Contact" no menu
+7. Volte para "Home"
+
+Se todas as páginas abrirem corretamente = SUCESSO! ✅
+
+==========================================================
+📂 ESTRUTURA DE ARQUIVOS
+==========================================================
+
+powerjunk-site/
+├── index.html ← Página principal (COMECE AQUI)
+├── junk-removal.html
+├── bin-rentals.html
+├── small-demolition.html
+├── about-us.html
+├── contact.html
+├── wp-content/
+│   ├── uploads/ ← Imagens aqui
+│   ├── themes/ ← CSS aqui
+│   └── plugins/ ← JavaScript aqui
+└── Arquivos de documentação (.txt e .md)
+
+==========================================================
+✅ CHECKLIST RÁPIDO
+==========================================================
+
+Para confirmar que está tudo funcionando:
+
+[ ] Site abre no navegador
+[ ] Logo da Power Junk aparece
+[ ] Cores vermelho/amarelo estão corretas
+[ ] Imagens dos serviços aparecem
+[ ] Menu de navegação funciona
+[ ] Posso clicar em "Junk Removal"
+[ ] Posso clicar em "Bin Rentals"
+[ ] Posso clicar em "Small Demolition"
+[ ] Posso clicar em "About Us"
+[ ] Posso clicar em "Contact"
+[ ] Posso voltar para Home
+
+==========================================================
+
+💪 PRONTO! Agora você tem controle total do site!
+
+Qualquer dúvida, consulte os outros arquivos de documentação:
+- START_HERE.txt
+- README.md
+- RESUMO_EXECUTIVO.txt
+
+==========================================================
