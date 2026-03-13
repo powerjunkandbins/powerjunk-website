@@ -342,136 +342,108 @@
 }
 
 /* ========================================
-   HEAVY MATERIALS PRICING ACCORDION
+   HEAVY MATERIALS CALLOUT
    ======================================== */
 
-/* ---------- Accordion Container ---------- */
-.heavy-pricing {
+.heavy-callout {
   max-width: 1080px;
   margin: 48px auto 0;
-  border: 2px solid var(--color-gray-300);
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 32px 36px;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
   border-radius: var(--radius-md);
-  overflow: hidden;
-  background: var(--color-light);
-  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  border-left: 5px solid var(--brand-red);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
 }
 
-/* ---------- Toggle Button ---------- */
-.heavy-pricing__toggle {
-  width: 100%;
+.heavy-callout__icon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 20px 28px;
-  background: var(--color-gray-100);
-  border: none;
-  cursor: pointer;
-  transition: background var(--transition-fast);
+  justify-content: center;
+  background: var(--brand-red);
+  border-radius: 50%;
+  padding: 10px;
 }
 
-.heavy-pricing__toggle:hover {
-  background: var(--color-gray-200, #e5e7eb);
-}
-
-.heavy-pricing__toggle-title {
-  font-family: var(--font-display);
-  font-size: 1.25rem;
-  font-weight: 800;
-  color: var(--color-dark);
-}
-
-.heavy-pricing__toggle-arrow {
+.heavy-callout__icon svg {
   width: 24px;
   height: 24px;
-  color: var(--brand-red);
-  transition: transform 0.3s ease;
-  flex-shrink: 0;
+  color: #fff;
+  stroke: #fff;
 }
 
-.heavy-pricing__toggle[aria-expanded="true"] .heavy-pricing__toggle-arrow {
-  transform: rotate(180deg);
+.heavy-callout__content {
+  flex: 1;
 }
 
-/* ---------- Collapsible Content ---------- */
-.heavy-pricing__content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.4s ease, padding 0.3s ease;
-  padding: 0 28px;
+.heavy-callout__title {
+  font-family: var(--font-display);
+  font-size: 1.375rem;
+  font-weight: 800;
+  color: #fff;
+  margin: 0 0 10px 0;
 }
 
-.heavy-pricing__content.open {
-  max-height: 800px;
-  padding: 28px 28px 32px;
-}
-
-/* ---------- Description ---------- */
-.heavy-pricing__desc {
+.heavy-callout__desc {
   font-family: var(--font-body);
   font-size: 0.9375rem;
   line-height: 1.7;
-  color: var(--color-gray-900);
-  margin-bottom: 28px;
+  color: rgba(255,255,255,0.8);
+  margin: 0 0 14px 0;
 }
 
-/* ---------- Body Grid ---------- */
-.heavy-pricing__body {
-  display: grid;
-  grid-template-columns: 1fr 1.4fr;
-  gap: 40px;
-  align-items: start;
+.heavy-callout__desc strong {
+  color: #fff;
+  font-weight: 600;
 }
 
-/* ---------- Materials List ---------- */
-.heavy-pricing__materials-title {
+.heavy-callout__highlight {
+  font-family: var(--font-display);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: var(--brand-red);
+  margin: 0 0 20px 0;
+}
+
+.heavy-callout__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 32px;
   font-family: var(--font-display);
   font-size: 1rem;
   font-weight: 700;
-  color: var(--color-dark);
-  margin-bottom: 12px;
+  color: #fff;
+  background: var(--brand-red);
+  border: none;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  box-shadow: 0 4px 16px rgba(237,28,36,0.35);
+  transition: background var(--transition-fast),
+              transform var(--transition-fast),
+              box-shadow var(--transition-fast);
 }
 
-.heavy-pricing__materials-list {
-  list-style: disc;
-  padding-left: 20px;
-  margin: 0;
+.heavy-callout__btn:hover {
+  background: var(--brand-red-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(237,28,36,0.45);
 }
 
-.heavy-pricing__materials-list li {
-  font-family: var(--font-body);
-  font-size: 0.9375rem;
-  color: var(--color-gray-900);
-  line-height: 1.8;
+.heavy-callout__btn:active {
+  transform: translateY(0);
 }
 
-/* ---------- Slider Column ---------- */
-.heavy-pricing__slider-col {
-  display: flex;
-  flex-direction: column;
-}
-
-.heavy-pricing__load-label {
-  font-family: var(--font-display);
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: var(--color-dark);
-  margin-bottom: 16px;
-  transition: opacity var(--transition-fast);
-}
-
-.heavy-pricing__price-card {
-  border-color: var(--brand-red);
-  border-width: 2px;
-}
-
-/* ---------- Note ---------- */
-.heavy-pricing__note {
-  font-family: var(--font-body);
-  font-size: 0.8125rem;
-  color: var(--color-gray-700);
-  font-style: italic;
-  line-height: 1.5;
-  margin-bottom: 20px;
+.heavy-callout__btn-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
 }
 
 /* ========================================
@@ -492,10 +464,6 @@
 
 /* Tablet Portrait (iPad, iPad Air, Galaxy Tab) */
 @media (max-width: 968px) {
-  .heavy-pricing__body {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
   .pricing-v2__grid {
     grid-template-columns: 1fr;
     gap: 32px;
@@ -534,17 +502,16 @@
 
 /* Small Tablet / Large Phone (iPad Mini, Galaxy Tab S6 Lite) */
 @media (max-width: 768px) {
-  .heavy-pricing__toggle {
-    padding: 16px 20px;
+  .heavy-callout {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 28px 24px;
+    gap: 16px;
   }
-  .heavy-pricing__toggle-title {
-    font-size: 1.0625rem;
-  }
-  .heavy-pricing__content.open {
-    padding: 20px 20px 24px;
-  }
-  .heavy-pricing__desc {
-    font-size: 0.875rem;
+  .heavy-callout__btn {
+    width: 100%;
+    justify-content: center;
   }
   .pricing-section-v2 {
     padding: 60px 0 48px;
@@ -591,20 +558,19 @@
 
 /* Mobile Standard (iPhone 12/13/14/15, Pixel, Galaxy S) */
 @media (max-width: 480px) {
-  .heavy-pricing {
+  .heavy-callout {
     margin-top: 32px;
+    padding: 24px 20px;
   }
-  .heavy-pricing__toggle {
-    padding: 14px 16px;
+  .heavy-callout__title {
+    font-size: 1.1875rem;
   }
-  .heavy-pricing__toggle-title {
-    font-size: 1rem;
+  .heavy-callout__desc {
+    font-size: 0.875rem;
   }
-  .heavy-pricing__content.open {
-    padding: 16px 16px 20px;
-  }
-  .heavy-pricing__load-label {
-    font-size: 1.0625rem;
+  .heavy-callout__btn {
+    padding: 12px 24px;
+    font-size: 0.9375rem;
   }
   .pricing-section-v2 {
     padding: 48px 0 40px;
