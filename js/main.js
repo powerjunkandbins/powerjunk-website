@@ -140,37 +140,37 @@ document.addEventListener('DOMContentLoaded', function() {
     {
       label: 'Min Load (1/8 Truck)',
       cardLabel: 'MIN LOAD',
-      price: '$115 - $150',
+      price: '$115 – $170',
       examples: 'Small furniture piece, few boxes, yard waste, small cleanup',
-      visual: 'img/pricing/load-min.jpg.png'
+      visual: 'img/pricing/load-min.png'
     },
     {
       label: '1/4 Truck Load',
       cardLabel: '1/4 TRUCK',
       price: '$235 - $310',
       examples: 'Couch, chair, mattress, several boxes, small room cleanout',
-      visual: 'img/pricing/load-quarter.jpg.png'
+      visual: 'img/pricing/load-quarter.png'
     },
     {
       label: '1/2 Truck Load',
       cardLabel: '1/2 TRUCK',
       price: '$350 - $450',
       examples: 'Multiple furniture pieces, appliances, garage cleanout, renovation debris',
-      visual: 'img/pricing/load-half.jpg.png'
+      visual: 'img/pricing/load-half.png'
     },
     {
       label: '3/4 Truck Load',
       cardLabel: '3/4 TRUCK',
       price: '$460 - $560',
       examples: 'Full room furniture, large appliances, basement cleanout, estate items',
-      visual: 'img/pricing/load-three-quarter.jpg.png'
+      visual: 'img/pricing/load-three-quarter.png'
     },
     {
       label: 'Full Truck Load',
       cardLabel: 'FULL TRUCK',
       price: '$565 - $680',
       examples: 'Complete home cleanout, multi-room furniture, major renovation debris, large estate',
-      visual: 'img/pricing/load-full.jpg.png'
+      visual: 'img/pricing/load-full.png'
     }
   ];
 
