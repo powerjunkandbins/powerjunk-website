@@ -1122,7 +1122,7 @@ p {
 /* Services Grid - Premium Cards */
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr));
   gap: var(--spacing-lg);
 }
 
@@ -1603,8 +1603,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 20px;
-  height: 20px;
+  width: 44px;
+  height: 44px;
   transition: opacity 0.3s ease;
 }
 
@@ -1956,7 +1956,7 @@ p {
 
   .nav-menu {
     position: fixed;
-    top: 70px;
+    top: 100%;
     left: -100%;
     width: 100%;
     background: var(--color-light);
