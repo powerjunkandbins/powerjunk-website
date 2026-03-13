@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
     {
       label: 'Min Load (1/8 Truck)',
       cardLabel: 'MIN LOAD',
-      price: '$115 - $150',
+      price: '$115 - $170',
       examples: 'Small furniture piece, few boxes, yard waste, small cleanup',
       visual: 'img/pricing/load-min.png'
     },
