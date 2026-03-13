@@ -235,6 +235,75 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+// ===== Heavy Materials Pricing Accordion + Slider =====
+document.addEventListener('DOMContentLoaded', function() {
+  var toggle = document.querySelector('.heavy-pricing__toggle');
+  var content = document.getElementById('heavyPricingContent');
+  var heavySlider = document.getElementById('heavyPricingSlider');
+
+  if (!toggle || !content) return;
+
+  // Accordion toggle
+  toggle.addEventListener('click', function() {
+    var expanded = this.getAttribute('aria-expanded') === 'true';
+    this.setAttribute('aria-expanded', !expanded);
+    content.classList.toggle('open');
+  });
+
+  if (!heavySlider) return;
+
+  var heavyLoadLabel = document.getElementById('heavyLoadLabel');
+  var heavyCardLabel = document.getElementById('heavyCardLabel');
+  var heavyPriceAmount = document.getElementById('heavyPriceAmount');
+
+  var heavyTiers = [
+    { label: 'Min Load (1/8 Truck)', cardLabel: 'MIN LOAD', price: '$219' },
+    { label: '1/4 Truck Load', cardLabel: '1/4 TRUCK', price: '$449' },
+    { label: '1/2 Truck Load', cardLabel: '1/2 TRUCK', price: '$649' },
+    { label: '3/4 Truck Load', cardLabel: '3/4 TRUCK', price: '$799' },
+    { label: 'Full Truck Load', cardLabel: 'FULL TRUCK', price: '$949' }
+  ];
+
+  function updateHeavySliderFill(value) {
+    var percent = (value / 4) * 100;
+    heavySlider.style.setProperty('--slider-progress', percent + '%');
+  }
+
+  function updateHeavyActiveLabel(value) {
+    var labels = document.querySelectorAll('.heavy-pricing__slider-labels span');
+    labels.forEach(function(label, i) {
+      label.classList.toggle('active', i === value);
+    });
+  }
+
+  function updateHeavyPricing(value) {
+    var tier = heavyTiers[value];
+
+    heavyLoadLabel.style.opacity = '0';
+    heavyPriceAmount.style.opacity = '0';
+
+    setTimeout(function() {
+      heavyLoadLabel.textContent = tier.label;
+      heavyCardLabel.textContent = tier.cardLabel;
+      heavyPriceAmount.textContent = tier.price;
+
+      heavyLoadLabel.style.opacity = '1';
+      heavyPriceAmount.style.opacity = '1';
+    }, 200);
+
+    updateHeavySliderFill(value);
+    updateHeavyActiveLabel(value);
+  }
+
+  updateHeavyPricing(0);
+  updateHeavySliderFill(0);
+  updateHeavyActiveLabel(0);
+
+  heavySlider.addEventListener('input', function() {
+    updateHeavyPricing(parseInt(this.value));
+  });
+});
+
 // ===== Scroll to Top Button =====
 (function() {
   var btn = document.querySelector('.scroll-to-top');

@@ -507,6 +507,92 @@
       We price by volume to keep things fair and transparent. You only pay for the space you use — nothing more.
     </p>
 
+    <!-- Heavy Materials Pricing Accordion -->
+    <div class="heavy-pricing">
+      <button class="heavy-pricing__toggle" aria-expanded="false" aria-controls="heavyPricingContent">
+        <span class="heavy-pricing__toggle-title">Heavy Materials Pricing</span>
+        <svg class="heavy-pricing__toggle-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </button>
+
+      <div class="heavy-pricing__content" id="heavyPricingContent">
+
+        <p class="heavy-pricing__desc">
+          Extremely heavy materials require a significant amount of lifting and shovelling, with typically higher disposal fees due to weight. In most cases, all labour and disposal fees are included in the removal of heavy materials. However, in some cases, additional labour may apply.
+        </p>
+
+        <div class="heavy-pricing__body">
+
+          <!-- LEFT: Materials List -->
+          <div class="heavy-pricing__materials">
+            <h4 class="heavy-pricing__materials-title">Examples of heavy materials:</h4>
+            <ul class="heavy-pricing__materials-list">
+              <li>Concrete, asphalt</li>
+              <li>Dirt, sod</li>
+              <li>Ceramic tiles</li>
+              <li>Shingles</li>
+              <li>Cinder blocks</li>
+              <li>Bricks</li>
+              <li>Pianos and safes</li>
+            </ul>
+          </div>
+
+          <!-- RIGHT: Slider + Price -->
+          <div class="heavy-pricing__slider-col">
+
+            <!-- Load Label -->
+            <div class="heavy-pricing__load-label" id="heavyLoadLabel">
+              Min Load (1/8 Truck)
+            </div>
+
+            <!-- Slider -->
+            <div class="pricing-v2__slider-wrapper">
+              <input
+                type="range"
+                id="heavyPricingSlider"
+                class="pricing-v2__slider"
+                min="0"
+                max="4"
+                step="1"
+                value="0"
+              />
+              <div class="pricing-v2__slider-labels heavy-pricing__slider-labels">
+                <span>Minimum</span>
+                <span>1/4</span>
+                <span>1/2</span>
+                <span>3/4</span>
+                <span>Full</span>
+              </div>
+            </div>
+
+            <!-- Price Card -->
+            <div class="pricing-v2__price-card heavy-pricing__price-card">
+              <span class="pricing-v2__price-card-label" id="heavyCardLabel">MIN LOAD</span>
+              <span class="pricing-v2__price-amount" id="heavyPriceAmount">$219</span>
+              <span class="pricing-v2__price-note">All labour, loading &amp; disposal included</span>
+            </div>
+
+            <!-- Note -->
+            <p class="heavy-pricing__note">
+              * For heavy materials, truck load capacity is reduced due to weight limits. Final price confirmed on-site.
+            </p>
+
+            <!-- CTA -->
+            <div class="pricing-v2__cta">
+              <a href="https://clienthub.getjobber.com/hubs/5cf50739-65c7-4cce-a4cb-c70a724eb64f/public/requests/2133722/new"
+                 target="_blank"
+                 class="pricing-v2__cta-btn">
+                GET A FREE ESTIMATE
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
   </div>
 </section>
 
