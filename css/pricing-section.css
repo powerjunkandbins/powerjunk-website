@@ -446,6 +446,24 @@
   flex-shrink: 0;
 }
 
+/* --- On-Dark Variant (for service area pages with dark bg) --- */
+.heavy-callout--on-dark {
+  background: linear-gradient(135deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.04) 100%);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-left: 5px solid var(--brand-red);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.06);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.heavy-callout--on-dark .heavy-callout__desc {
+  color: rgba(255,255,255,0.75);
+}
+
+.heavy-callout--on-dark .heavy-callout__desc strong {
+  color: #fff;
+}
+
 /* ========================================
    RESPONSIVE - ALL DEVICES
    ======================================== */
